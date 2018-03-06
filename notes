@@ -1,0 +1,16 @@
+01 create project
+  安装 http server
+  加入 index
+  创建 angular project
+
+02 html mockup
+03 定义 dummy data
+  customer class
+  address class
+04 customer list
+05 customer detail component
+06 customer address compoent
+07 在 detail 里改变 parent 中的 selectedCustomer
+08 DataService
+09 DataService 模拟异步返回数据
+10 用 http 读数据
