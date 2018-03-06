@@ -30,7 +30,7 @@
           <h2>Demo customer selector steps</h2>
         </div>
       </div>
-      <!--01 -->
+      <!--15-->
       <div class="row white">
         <div class="col-sm-4 py-4">
           <h3>01 <br>项目初始化</h3>
@@ -38,8 +38,6 @@
         <div class="col-sm-8 py-4 leftBorder">
           <ul>
             <li><a href="steps/01/01-01.txt" target="_blank">安装 Http Server</a></li>
-            <li><a href="steps/01/01-02.txt" target="_blank">加入 index</a></li>
-            <li><a href="steps/01/01-03.txt" target="_blank">用 CLI 创建 Angular 项目</a></li>
           </ul>
         </div>
       </div>
