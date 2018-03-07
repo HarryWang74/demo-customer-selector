@@ -2,11 +2,10 @@
   安装 http server
   加入 index
   创建 angular project
-
 02 html mockup
 03 定义 dummy data
-  customer class
-  address class
+
+
 04 customer list
 05 customer detail component
 06 customer address compoent

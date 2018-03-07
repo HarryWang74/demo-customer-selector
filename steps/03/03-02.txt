@@ -1,0 +1,9 @@
+<p><i>Loading customers ...</i></p>
+<p><i>Click to select a customer</i></p>
+
+<ul>
+  <li>customer1</li>
+  <li>customer2</li>
+  <li>customer3</li>
+  <li>customer4</li>
+</ul>
