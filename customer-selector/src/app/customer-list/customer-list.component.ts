@@ -50,7 +50,7 @@ export class CustomerListComponent implements OnInit {
       }
     },
   ];
-  
+  customer: Customer;
   constructor() { }
 
   ngOnInit() {

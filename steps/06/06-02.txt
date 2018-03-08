@@ -1,0 +1,8 @@
+
+<ul>
+  <li *ngFor="let cust of customers"
+      // 不需要单独写 function, (click)="customer = cust"
+      (click)="customer = cust">
+    {{cust.name}}
+  </li>
+</ul>
