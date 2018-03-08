@@ -2,14 +2,14 @@
 
 <h2>
   <button><</button>
-  customer.name
+  {{customer.name}}
   <button>></button>
 </h2>
 
 <fieldset>
   <label>
     Name:
-    <input placeholder="Customer name">
+    <input [(ngModel)]="customer.name" placeholder="Customer name">
   </label>
 </fieldset>
 
@@ -21,19 +21,19 @@
 <fieldset>
   <label>
     Street:
-    <input placeholder="Street">
+    <input [(ngModel)]="customer.address.street" placeholder="Street">
   </label>
 </fieldset>
 <fieldset>
   <label>
     City:
-    <input placeholder="City">
+    <input [(ngModel)]="customer.address.city" placeholder="City">
   </label>
 </fieldset>
 <fieldset>
   <label>
     State:
-    <select >
+    <select [(ngModel)]="customer.address.state">
       <option>state</option>
     </select>
   </label>
@@ -41,7 +41,7 @@
 <fieldset>
   <label>
     Region:
-    <select >
+    <select [(ngModel)]="customer.address.region">
       <option>region</option>
     </select>
   </label>

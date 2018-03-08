@@ -9,4 +9,6 @@
   </li>
 </ul>
 
-<app-customer-detail></app-customer-detail>
+<div *ngIf="customer">
+<app-customer-detail [customer]="customer"></app-customer-detail>
+</div>

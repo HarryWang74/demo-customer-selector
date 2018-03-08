@@ -7,11 +7,12 @@ import { Customer } from '../interfaces/customer';
   styleUrls: ['./customer-detail.component.css']
 })
 export class CustomerDetailComponent implements OnInit {
+  // set input
   @Input()
   customer: Customer;
+
   constructor() { }
 
   ngOnInit() {
   }
-
 }

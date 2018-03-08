@@ -1,0 +1,3 @@
+<div *ngIf="customer">
+  <app-customer-detail [customer]="customer"></app-customer-detail>
+</div>
