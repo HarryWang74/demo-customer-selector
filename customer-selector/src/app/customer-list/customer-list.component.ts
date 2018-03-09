@@ -56,4 +56,13 @@ export class CustomerListComponent implements OnInit {
   ngOnInit() {
   }
 
+  shift(increment: number) {
+    // findIndex 接受一个 function 来检测 array element
+    // 返回第一个 matching element 的 index
+    // 这里是返回当前 customer 的 index
+    // 然后用 customer index 加 increment
+    let ix = increment + this.customers.findIndex(c => c === this.customer);
+    ix = Math.min(this.customers.length - 1, Math.max(0, ix));
+    this.customer = this.customers[ix];
+  }
 }

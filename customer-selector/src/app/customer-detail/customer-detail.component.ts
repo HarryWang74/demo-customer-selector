@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { Customer } from '../interfaces/customer';
 
 @Component({
@@ -9,9 +9,15 @@ import { Customer } from '../interfaces/customer';
 export class CustomerDetailComponent implements OnInit {
   @Input()
   customer: Customer;
+
+  @Output()
+  shift = new EventEmitter<number>();
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  left()  { this.shift.emit(-1); }
+  right() { this.shift.emit(1); }
 }

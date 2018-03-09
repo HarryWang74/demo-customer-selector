@@ -1,0 +1,1 @@
+<app-customer-detail [customer]="customer" (shift)="shift($event)"></app-customer-detail>

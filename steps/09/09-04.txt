@@ -1,0 +1,5 @@
+<h2>
+  <button (click)="left()"><</button>
+  {{customer.name}}
+  <button (click)="right()">></button>
+</h2>

@@ -1,0 +1,2 @@
+@Output()
+shift = new EventEmitter<number>();
